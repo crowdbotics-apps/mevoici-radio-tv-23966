@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mevoici_radio_tv_23966.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mevoici_radio_tv_23966.settings")
 
 application = get_wsgi_application()
